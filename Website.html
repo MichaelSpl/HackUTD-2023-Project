@@ -5,14 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hackathon 2023 Project</title>
     <style>
-
+        body {
+            background-color: #f1eeea;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        #gain {
+            color: green;
+        }
+        #loss {
+            color: red;
+        }
     </style>
 </head>
 <body>
-    <div class = "charts">
-        <input type="image" id="image" alt="Data Provided" src="https://ichef.bbci.co.uk/images/ic/448xn/p09xd6t1.png" />
-        <input type="image" id="image" alt="Data Found" src="https://ichef.bbci.co.uk/images/ic/448xn/p09xd6t1.png" />
-    </div>
+    <!--Label buttons with companies and put their stock rise and fall numbers under them in textboxes (green rise red fall).
+        click the button to show the data provided graph.-->
+    <input type = "button" id = "company" value = "company"/>
+    <input type = "text" id = "gain" name = "gain" placeholder="gain"/>
+    <input type = "text" id = "loss" name = "loss" placeholder="loss"/>
+
+
+    <input type="image" id="image" alt="Data Provided" src="https://ichef.bbci.co.uk/images/ic/448xn/p09xd6t1.png" />
+
     </body>
 </body>
 </html>
