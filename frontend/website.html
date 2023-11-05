@@ -7,14 +7,28 @@
     <link rel = "stylesheet" href = "website.css">
 </head>
 <body>
-    <!--<input type="image" id="image" alt="Data Provided" src="https://ichef.bbci.co.uk/images/ic/448xn/p09xd6t1.png" />-->
-    <div id = "charts">
-        <input type = "button" id = "company" value = "company"/>
-        <div id = "stats">
-            <input type = "text" id = "gain" name = "gain" placeholder="gain"/>
-            <input type = "text" id = "loss" name = "loss" placeholder="loss"/>
-        </div>
+    <div id = graphs>
+        <input type="image" id="image" alt="graph" src="../Backend/Results from Reddit/myplot1.png" />
+        <input type="image" id="image" alt="graph" src="../Backend/Results from Reddit/myplot2.png" />
+        <input type="image" id="image" alt="graph" src="../Backend/Results from Reddit/myplot3.png" />
+        <input type="image" id="image" alt="graph" src="../Backend/Results from Reddit/myplotAMC.png" />
+        <input type="image" id="image" alt="graph" src="../Backend/Results from Reddit/myplotAMD1.png" />
+        <input type="image" id="image" alt="graph" src="../Backend/Results from Reddit/myplotAMD2.png" />
+        <input type="image" id="image" alt="graph" src="../Backend/Results from Reddit/myplotApple1.png" />
+        <input type="image" id="image" alt="graph" src="../Backend/Results from Reddit/myplotApple2.png" />
+        <input type="image" id="image" alt="graph" src="../Backend/Results from Reddit/myplotApple3.png" />
+        <input type="image" id="image" alt="graph" src="../Backend/Results from Reddit/myplotMeta.png" />
     </div>
+    
+    <div id = "show_charts">
+        <button onclick="showResults()">Click here</button>
+    </div>
+
+    <script>
+        function showResults() {
+            document.getElementById("graphs").style.visibility = "visible";
+        }
+    </script>
 
 </body>
 </html>

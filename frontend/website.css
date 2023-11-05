@@ -4,25 +4,26 @@ body {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-25%, -50%);
 }
-input[type=button] {
+button {
     width: 344px;
-    margin-bottom: 6px;;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 input[type=image] {
     width: 344px;
 }
-#charts {
+#graphs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -170px;
+    visibility: hidden;
+}
+#show_charts {
     display:flex;
     flex-direction: column;
 }
 #stats {
     flex-direction: row;
-}
-#gain {
-    color: green;
-}
-#loss {
-    color: red;
 }
