@@ -43,6 +43,9 @@ FinPredict: Leveraging sentiment analysis, real-time data, and the Google Trends
 - Enhance analysis during these critical periods by incorporating data from news sources.
 - We incorporated data collection on a 7-day timeframe in order to get the most recent web traffic data to also limit the number of events that prompted the web traffic changes.
 
+### User Friendly Interface via HTML, CSS, and Javascript
+- Display visually appealing graphs that are easy for the user to understand.
+
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
