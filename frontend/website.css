@@ -1,0 +1,28 @@
+body {
+    background-color: #f1eeea;
+    font-family: 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+input[type=button] {
+    width: 344px;
+    margin-bottom: 6px;;
+}
+input[type=image] {
+    width: 344px;
+}
+#charts {
+    display:flex;
+    flex-direction: column;
+}
+#stats {
+    flex-direction: row;
+}
+#gain {
+    color: green;
+}
+#loss {
+    color: red;
+}
